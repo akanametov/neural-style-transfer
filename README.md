@@ -1,29 +1,34 @@
 NeuralStyleTransfer
 ======================
-A Neural Style Trnasfer based on VGG19 model
+A Neural Style Transfer based on VGG19 model
 
 :star: Star this project on GitHub — it helps!
 
-[Super-Resolution GAN](https://arxiv.org/abs/1609.04802) is one of the best examples in GAN's application. It allows
-to imporove the quality of input low-resolution image. As **Generator** this GAN uses
-**SRResNet** (Super-Resolution Residual Network). In order to provide better quality of
-the output image the network is trained on three different loss functions.
+[Neural Style Transfer](https://arxiv.org/abs/1609.04802) is a task of transferring style
+of one image to another. It does it by using features of some pretrained model. In this
+case as such **Base Model** the **VGG19** pretrained on **ImageNet** was used. 
+Firstly we create our own model from certain layers of the **VGG19** network.
+And then by adding gradients from the network to the input image we obtain our result image
+with transferred style.
 
 
 ## Table of content
 
-- [Evaluation](#eval)
+- [Compiling model](#compile)
 - [Training](#train)
-    - [Database](#database)
-    - [WarmUp of Generator](#warmup)
-    - [Training with Discriminator](#train)
+- [Results](#res)
 - [License](#license)
 - [Links](#links)
 
-## Evaluation
+## Compiling model
 
-You can evaluate pretrained **Super-Resolution GAN** on your images.
-To do this use `eval.py`.
+As mentioned above, first of all we should compile our model from pretrained one.
+In this particular case the **VGG19** was used. We should define between which of
+the layers the `Content loss` and `Style loss` are going to be calculated.
+As model's input is going to be the copy of *content_image* we do not need so much
+*nodes* to calculate `Content loss` as we need for `Style loss`(In this case **1 node**
+was used for `Content loss` and **5 nodes** for `Style loss`.
+* Model compiler is under `model/__init__.py`.
 
 ## Training
 
