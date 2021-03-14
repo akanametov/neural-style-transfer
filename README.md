@@ -28,13 +28,14 @@ the layers the `Content loss` and `Style loss` are going to be calculated.
 As model's input is going to be the copy of *content_image* we do not need so much
 *nodes* to calculate `Content loss` as we need for `Style loss`(In this case **1 node**
 was used for `Content loss` and **5 nodes** for `Style loss`.
-* Model compiler is under `model/__init__.py`.
+* The model compiler is under `model/__init__.py`.
 
 ## Training
 
-### Database
-
-The Super-Resolution GAN was trained on **STL10** dataset from `torchvision.dataset`.
+Parameters of training:
+- Base model: **VGG19**
+- Content loss layer: `conv_1`
+- Style loss layers: ('conv1', 'conv2', 'conv3', 'conv4', 'conv5')
 
 ### WarmUp of Generator
 
@@ -44,7 +45,7 @@ dataset with **Pixel-wise Loss** function.
 ![](images/g_loss_warmup.png)
 
 See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/SuperResolution/blob/main/demo/SuperResolution%5BGeneratorWarmUp%5D.ipynb) for **Generator**'s warmup.
-
+* The model trainer is under `trainer.py`.
 ### Training with Discriminator
 
 After **Generator** warmup we train booth **Generator** and **Discriminator** with their loss functions.
