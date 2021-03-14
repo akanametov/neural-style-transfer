@@ -20,7 +20,7 @@ with transferred style.
 - [License](#license)
 - [Links](#links)
 
-## Compiling model (#compile)
+## Compiling model [!compile]
 
 As mentioned above, first of all we should compile our model from pretrained one.
 In this particular case the **VGG19** was used. We should define between which of
