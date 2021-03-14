@@ -42,9 +42,21 @@ Parameters of training:
 See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo.ipynb) for more details of training process.
 * The model trainer is under `trainer.py`.
 ### Results
-##### Content Image
-<a><img src="images/content.jpg" alt="Content Image" align="center" height="320px" width="400px"/></a>
 
+#### Content Image
+<a><img src="images/content.jpg" align="center" height="320px" width="400px"/></a>
+
+#### Style Image
+<a><img src="images/style.jpg" align="center" height="320px" width="400px"/></a>
+
+#### Content Image
+<a>
+    <img src="images/starry_closs.png" align="center" height="320px" width="400px"/>
+    <img src="images/starry_sloss.png" align="center" height="320px" width="400px"/>
+</a>
+
+#### Content Image
+<a><img src="images/content.jpg" align="center" height="320px" width="400px"/></a>
 ![Discriminator loss](images/d_loss.png)
 
 **After 100 epochs of training:**
