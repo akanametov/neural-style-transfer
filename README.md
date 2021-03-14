@@ -46,37 +46,37 @@ See [demo](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo
 #### `Content` and `Style` Image
 
 <a><div class="column">
-    <img src="images/content.jpg" align="center" height="300px" width="420px"/>
-    <img src="images/style.jpg" align="center" height="300px" width="420px"/>
+    <img src="images/content.jpg" align="center" height="200px" width="300px"/>
+    <img src="images/style.jpg" align="center" height="200px" width="300px"/>
 </div></a>
 
 ##### `Content` and `Style` loss
 
 <a><div class="column">
-    <img src="images/starry_closs.png" align="center" height="300px" width="420px"/>
-    <img src="images/starry_sloss.png" align="center" height="300px" width="420px"/>
+    <img src="images/starry_closs.png" align="center" height="200px" width="300px"/>
+    <img src="images/starry_sloss.png" align="center" height="200px" width="300px"/>
 </div></a>
 
 #### Result
-<a><img src="images/result.jpg" align="center" height="300px" width="420px"/></a>
+<a><img src="images/result.jpg" align="center" height="200px" width="300px"/></a>
 
 ### `Dali` style
 #### `Content` and `Style` Image
 
 <a><div class="column">
-    <img src="images/content.jpg" align="center" height="300px" width="420px"/>
-    <img src="images/style_2.jpg" align="center" height="300px" width="420px"/>
+    <img src="images/content.jpg" align="center" height="200px" width="300px"/>
+    <img src="images/style_2.jpg" align="center" height="200px" width="300px"/>
 </div></a>
 
 ##### `Content` and `Style` loss
 
 <a><div class="column">
-    <img src="images/dali_closs.png" align="center" height="300px" width="420px"/>
-    <img src="images/dali_sloss.png" align="center" height="300px" width="420px"/>
+    <img src="images/dali_closs.png" align="center" height="200px" width="300px"/>
+    <img src="images/dali_sloss.png" align="center" height="200px" width="300px"/>
 </div></a>
 
 #### Result
-<a><img src="images/result_2.jpg" align="center" height="300px" width="420px"/></a>
+<a><img src="images/result_2.jpg" align="center" height="200px" width="300px"/></a>
 
 ## License
 
