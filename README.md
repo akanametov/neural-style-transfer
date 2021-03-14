@@ -39,7 +39,7 @@ Parameters of training:
 - **LBFGS** optimizer
 - Number of epochs: 10
 
-See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo.ipynb) for more details of training process.
+See [demo](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo.ipynb) for more details of training process.
 * The model trainer is under `trainer.py`.
 ### Results
 ### `Van Gogh` style
