@@ -43,17 +43,14 @@ See [demo](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo
 * The model trainer is under `trainer.py`.
 ### Results
 ### `Van Gogh` style
+#### `Content` and `Style` Image
 
-<div class="column">
+<a><div class="column">
     <img src="images/content.jpg" title="Content Image" align="center" height="300px" width="420px"/>
     <img src="images/style.jpg" align="center" height="300px" width="420px"/>
-</div>
-#### Content Image
-<a><img src="images/content.jpg" align="center" height="300px" width="420px"/></a>
+</div></a>
 
-#### Style Image
-<a><img src="images/style.jpg" align="center" height="300px" width="420px"/></a>
-
+#### `Content` and `Style` Image
 ##### Content loss
 <a><img src="images/starry_closs.png" align="center" height="300px" width="420px"/></a>
 ##### Style loss
