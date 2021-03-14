@@ -4,7 +4,7 @@ A Neural Style Transfer based on VGG19 model
 
 :star: Star this project on GitHub — it helps!
 
-[Neural Style Transfer](https://arxiv.org/abs/1609.04802) is a task of transferring style
+[Neural Style Transfer](https://arxiv.org/pdf/1705.04058.pdf) is a task of transferring style
 of one image to another. It does it by using features of some pretrained model. In this
 case as such **Base Model** the **VGG19** pretrained on **ImageNet** was used. 
 Firstly we create our own model from certain layers of the **VGG19** network.
@@ -44,43 +44,33 @@ See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/NeuralStyleTra
 ### Results
 ### `Van Gogh` style
 #### Content Image
-<a><img src="images/content.jpg" align="center" height="300px" width="400px"/></a>
+<a><img src="images/content.jpg" align="center" height="300px" width="420px"/></a>
 
 #### Style Image
-<a><img src="images/style.jpg" align="center" height="300px" width="400px"/></a>
+<a><img src="images/style.jpg" align="center" height="300px" width="420px"/></a>
 
 ##### Content loss
-<a><img src="images/starry_closs.png" align="center" height="300px" width="400px"/></a>
+<a><img src="images/starry_closs.png" align="center" height="300px" width="420px"/></a>
 ##### Style loss
-<a><img src="images/starry_sloss.png" align="center" height="300px" width="400px"/></a>
+<a><img src="images/starry_sloss.png" align="center" height="300px" width="420px"/></a>
 
 #### Result
-<a><img src="images/result.jpg" align="center" height="300px" width="400px"/></a>
+<a><img src="images/result.jpg" align="center" height="300px" width="420px"/></a>
 
 ### `Dali` style
 #### Content Image
-<a><img src="images/content.jpg" align="center" height="300px" width="400px"/></a>
+<a><img src="images/content.jpg" align="center" height="300px" width="420px"/></a>
 
 #### Style Image
-<a><img src="images/style_2.jpg" align="center" height="300px" width="400px"/></a>
+<a><img src="images/style_2.jpg" align="center" height="300px" width="420px"/></a>
 
 ##### Content loss
-<a><img src="images/dali_closs.png" align="center" height="300px" width="400px"/></a>
+<a><img src="images/dali_closs.png" align="center" height="300px" width="420px"/></a>
 ##### Style loss
-<a><img src="images/dali_sloss.png" align="center" height="300px" width="400px"/></a>
+<a><img src="images/dali_sloss.png" align="center" height="300px" width="420px"/></a>
 
 #### Result
-<a><img src="images/result_2.jpg" align="center" height="300px" width="400px"/></a>
-
-
-**After 100 epochs of training:**
-
-<a>
-    <img src="images/train.png" align="center" height="400px" width="400px"/>
-</a>
-
-
-See [Super-Resolution](https://github.com/akanametov/SuperResolution/blob/main/demo/SuperResolution.ipynb) for **SR-GAN**'s training.
+<a><img src="images/result_2.jpg" align="center" height="300px" width="420px"/></a>
 
 ## License
 
@@ -88,4 +78,4 @@ This project is licensed under MIT.
 
 ## Links
 
-* [Super-Resolution GAN (arXiv article)](https://arxiv.org/abs/1609.04802)
+* [Neural Style Transfer (arXiv article)](https://arxiv.org/pdf/1705.04058.pdf)
