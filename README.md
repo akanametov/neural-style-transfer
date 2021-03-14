@@ -20,7 +20,7 @@ with transferred style.
 - [License](#license)
 - [Links](#links)
 
-## Compiling model [!compile]
+## Compiling model
 
 As mentioned above, first of all we should compile our model from pretrained one.
 In this particular case the **VGG19** was used. We should define between which of
@@ -30,7 +30,7 @@ As model's input is going to be the copy of *content_image* we do not need so mu
 was used for `Content loss` and **5 nodes** for `Style loss`.
 * The model compiler is under `model/__init__.py`.
 
-## Training (#train)
+## Training 
 
 Parameters of training:
 - Base model: **VGG19**
@@ -41,7 +41,7 @@ Parameters of training:
 
 See [demo](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo.ipynb) for more details of training process.
 * The model trainer is under `trainer.py`.
-### Results (#res)
+### Results
 ### `Van Gogh` style
 #### Content Image
 <a><img src="images/content.jpg" align="center" height="300px" width="420px"/></a>
@@ -72,10 +72,10 @@ See [demo](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo
 #### Result
 <a><img src="images/result_2.jpg" align="center" height="300px" width="420px"/></a>
 
-## License (#license)
+## License
 
 This project is licensed under MIT.
 
-## Links (#links)
+## Links
 
 * [Neural Style Transfer (arXiv article)](https://arxiv.org/pdf/1705.04058.pdf)
