@@ -44,7 +44,7 @@ See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/NeuralStyleTra
 ### Results
 
 <a>
-    <img src="images/content.jpg" align="center" height="300px" width="400px"/>
+    <img src="images/content.jpg" alt="Content Image" align="center" height="320px" width="400px"/>
 </a>
 
 ![Generator loss](images/g_loss.png)
