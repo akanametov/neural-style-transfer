@@ -65,7 +65,7 @@ See [demo](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo
 
 <a><div class="column">
     <img src="images/content.jpg" align="center" height="300px" width="420px"/>
-    <img src="images/styl_2.jpg" align="center" height="300px" width="420px"/>
+    <img src="images/style_2.jpg" align="center" height="300px" width="420px"/>
 </div></a>
 
 ##### `Content` and `Style` loss
