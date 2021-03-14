@@ -43,11 +43,9 @@ See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/NeuralStyleTra
 * The model trainer is under `trainer.py`.
 ### Results
 
-<a>
-    <img src="images/content.jpg" alt="Content Image" align="center" height="320px" width="400px"/>
-</a>
+<a><img src="images/content.jpg" alt="Content Image" align="center" height="320px" width="400px"/></a>
 
-![Generator loss](images/g_loss.png)
+![Generator loss](<a><img src="images/content.jpg" alt="Content Image" align="center" height="320px" width="400px"/></a>)
 
 ![Discriminator loss](images/d_loss.png)
 
