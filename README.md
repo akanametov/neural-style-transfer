@@ -42,7 +42,7 @@ Parameters of training:
 See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo.ipynb) for more details of training process.
 * The model trainer is under `trainer.py`.
 ### Results
-
+### `Van Gogh` style
 #### Content Image
 <a><img src="images/content.jpg" align="center" height="300px" width="400px"/></a>
 
@@ -57,9 +57,21 @@ See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/NeuralStyleTra
 #### Result
 <a><img src="images/result.jpg" align="center" height="300px" width="400px"/></a>
 
+### `Dali` style
 #### Content Image
 <a><img src="images/content.jpg" align="center" height="300px" width="400px"/></a>
-![Discriminator loss](images/d_loss.png)
+
+#### Style Image
+<a><img src="images/style_2.jpg" align="center" height="300px" width="400px"/></a>
+
+##### Content loss
+<a><img src="images/dali_closs.png" align="center" height="300px" width="400px"/></a>
+##### Style loss
+<a><img src="images/dali_sloss.png" align="center" height="300px" width="400px"/></a>
+
+#### Result
+<a><img src="images/result_2.jpg" align="center" height="300px" width="400px"/></a>
+
 
 **After 100 epochs of training:**
 
