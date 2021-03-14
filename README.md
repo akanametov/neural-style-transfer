@@ -43,6 +43,11 @@ See [demo](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo
 * The model trainer is under `trainer.py`.
 ### Results
 ### `Van Gogh` style
+
+<div class="column">
+    <img src="images/content.jpg" align="center" height="300px" width="420px"/>
+    <img src="images/style.jpg" align="center" height="300px" width="420px"/>
+</div>
 #### Content Image
 <a><img src="images/content.jpg" align="center" height="300px" width="420px"/></a>
 
