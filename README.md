@@ -34,23 +34,18 @@ was used for `Content loss` and **5 nodes** for `Style loss`.
 
 Parameters of training:
 - Base model: **VGG19**
-- Content loss layer: `conv_1`
-- Style loss layers: ('conv1', 'conv2', 'conv3', 'conv4', 'conv5')
+- Content loss layer: `conv4`
+- Style loss layers: (`conv1`, `conv2`, `conv3`, `conv4`, `conv5`)
+- **LBFGS** optimizer
+- Number of epochs: 10
 
-### WarmUp of Generator
-
-Before to train both **Generator** and **Discriminator** we should pretrain our **Ganarator** on
-dataset with **Pixel-wise Loss** function.
-
-![](images/g_loss_warmup.png)
-
-See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/SuperResolution/blob/main/demo/SuperResolution%5BGeneratorWarmUp%5D.ipynb) for **Generator**'s warmup.
+See [Super-Resolution [GAN WarmUp]](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo.ipynb) for more details of training process.
 * The model trainer is under `trainer.py`.
-### Training with Discriminator
+### Results
 
-After **Generator** warmup we train booth **Generator** and **Discriminator** with their loss functions.
-The **Generator loss** consists of **Adverserial loss**(BCE loss between *fake prediction and target*),
-**Model Based loss**(feature based MSE loss between *fake and real images*) and **Pixel-wise loss**(MSE loss between *fake and real images*).
+<a>
+    <img src="images/content.jpg" align="center" height="300px" width="400px"/>
+</a>
 
 ![Generator loss](images/g_loss.png)
 
