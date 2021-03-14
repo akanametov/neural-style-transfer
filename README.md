@@ -46,30 +46,34 @@ See [demo](https://github.com/akanametov/NeuralStyleTransfer/blob/main/demo/demo
 #### `Content` and `Style` Image
 
 <a><div class="column">
-    <img src="images/content.jpg" title="Content Image" align="center" height="300px" width="420px"/>
+    <img src="images/content.jpg" align="center" height="300px" width="420px"/>
     <img src="images/style.jpg" align="center" height="300px" width="420px"/>
 </div></a>
 
-#### `Content` and `Style` Image
-##### Content loss
-<a><img src="images/starry_closs.png" align="center" height="300px" width="420px"/></a>
-##### Style loss
-<a><img src="images/starry_sloss.png" align="center" height="300px" width="420px"/></a>
+##### `Content` and `Style` loss
+
+<a><div class="column">
+    <img src="images/starry_closs.png" align="center" height="300px" width="420px"/>
+    <img src="images/starry_sloss.png" align="center" height="300px" width="420px"/>
+</div></a>
 
 #### Result
 <a><img src="images/result.jpg" align="center" height="300px" width="420px"/></a>
 
 ### `Dali` style
-#### Content Image
-<a><img src="images/content.jpg" align="center" height="300px" width="420px"/></a>
+#### `Content` and `Style` Image
 
-#### Style Image
-<a><img src="images/style_2.jpg" align="center" height="300px" width="420px"/></a>
+<a><div class="column">
+    <img src="images/content.jpg" align="center" height="300px" width="420px"/>
+    <img src="images/styl_2.jpg" align="center" height="300px" width="420px"/>
+</div></a>
 
-##### Content loss
-<a><img src="images/dali_closs.png" align="center" height="300px" width="420px"/></a>
-##### Style loss
-<a><img src="images/dali_sloss.png" align="center" height="300px" width="420px"/></a>
+##### `Content` and `Style` loss
+
+<a><div class="column">
+    <img src="images/dali_closs.png" align="center" height="300px" width="420px"/>
+    <img src="images/dali_sloss.png" align="center" height="300px" width="420px"/>
+</div></a>
 
 #### Result
 <a><img src="images/result_2.jpg" align="center" height="300px" width="420px"/></a>
